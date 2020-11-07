@@ -5,6 +5,9 @@ Flowers surround me, alone with my drink, I pour for myself, no companion to sho
 🐱Drinking Alone by Moonlight
 #+end_quote
 
+#+DOWNLOADED: screenshot @ 2020-11-07 21:01:19
+[[file:_assets/2020-11-07_21-01-19_screenshot.png]]
+
 Collection of git command I explore everyday
 * Visualine git log:
   #+begin_src shell
@@ -19,3 +22,4 @@ git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
 : * 5ca2c50	 (HEAD -> master, origin/master) Sat Nov  7 08:43:00 PM +07 2020
 : * 761b9ce	 Sat Nov  7 06:39:41 PM +07 2020
 : * dd6b500	 Readme.org add
+
