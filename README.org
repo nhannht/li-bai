@@ -11,6 +11,11 @@ Collection of git command I explore everyday
 git log --graph --decorate --oneline
   #+end_src
 * with graph:
-  #+begin_src shell
+#+begin_src shell :results output :exports both 
 git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
-  #+end_src
+#+end_src
+
+#+RESULTS:
+: * 5ca2c50	 (HEAD -> master, origin/master) Sat Nov  7 08:43:00 PM +07 2020
+: * 761b9ce	 Sat Nov  7 06:39:41 PM +07 2020
+: * dd6b500	 Readme.org add
