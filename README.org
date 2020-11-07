@@ -6,3 +6,11 @@ Flowers surround me, alone with my drink, I pour for myself, no companion to sho
 #+end_quote
 
 Collection of git command I explore everyday
+* Visualine git log:
+  #+begin_src shell
+git log --graph --decorate --oneline
+  #+end_src
+* with graph:
+  #+begin_src shell
+git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
+  #+end_src
